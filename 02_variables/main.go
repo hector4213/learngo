@@ -17,6 +17,18 @@ func main() {
 
 	//Using var
   var name string  = "Hector"
-	
-	fmt.Println(name)
+	var age int = 99
+	var isCool = true
+
+	// Short inferred syntax
+	nickName := "Hectorious"
+	birthYear := "1935"
+
+	city, petName := "Toronto", "Meowboy"
+
+
+	fmt.Println(name, age, isCool)
+	fmt.Println(nickName, birthYear)
+	fmt.Println(city, petName)
+	fmt.Printf("%T\n", isCool)
 }
