@@ -40,6 +40,4 @@ func main () {
 		fmt.Println("what color is this???")
 	}
 
-
-
 }
