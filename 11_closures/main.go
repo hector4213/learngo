@@ -19,7 +19,9 @@ func multiplier () func(int) int {
 }
 
 func main() {
+
 	sum := adder()
+	
 	products := multiplier()
 
 	for i := 1; i < 10; i++ {
