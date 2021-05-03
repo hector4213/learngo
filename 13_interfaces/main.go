@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-// Define interfact
+// Define interface
 
 type Shape interface {
 	area() float64

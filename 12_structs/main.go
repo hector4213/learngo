@@ -8,9 +8,8 @@ import (
 // Define a struct
 
 type User struct {
-
 	email, username, password, gender string
-	age int
+	age                               int
 }
 
 // Greeting method (value receiver)
@@ -37,7 +36,7 @@ func (u *User) gotMarried(newLastName string) {
 
 func main() {
 	// Initialize a person using struct
-	newUser := User{email: "test@test.com", username: "testy", password: "hunter2", gender: "male", age:99}
+	newUser := User{email: "test@test.com", username: "testy", password: "hunter2", gender: "male", age: 99}
 
 	// Shorthand
 	anothaOne := User{"me@mail.com", "kawahi_leonard", "hunter3", "female", 12}
@@ -47,6 +46,5 @@ func main() {
 	anothaOne.hasBirthday()
 	fmt.Println(anothaOne.greet())
 	fmt.Println(newUser, anothaOne)
-
 
 }
