@@ -10,17 +10,17 @@ Small code examples to gain knowledge and perspective on go and its functionalit
 
 ## Topics
 
-- Printng
+- Printing
 - Variable declaration
 - Use of packages
 - Functions
 - Arrays and slices
 - Conditionals / Control Flow
-- Loops and iteration
+- Loops and Iteration
 - Maps
 - Use of range
 - Pointers
 - Closures
 - Structs
-- Interfacts
+- Interfaces
 - A simple Web Server
